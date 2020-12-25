@@ -1,0 +1,15 @@
+Code Snippet 1
+for(i=1;i<=n;i++){
+	for(j=i;j<=n;j++){
+		printf("Hi")
+	}
+}
+Time Complexity is = O(n^2)
+
+Code Snippet 2
+for(i=1;i<=n;i*=3){
+	for(j=1;j<=n;j++){
+		printf("Hello")
+	}
+}
+Time complexity is = O(log(n^2))
